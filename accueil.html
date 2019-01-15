@@ -3,238 +3,258 @@
 <head>
 	<meta charset="utf-8">
 	<title>Acquity - Accueil</title>
-<style>
-.cxArial8{
-font-family:arial;
-font-size:8pt;
-}
-.cxArial10{
-font-family:arial;
-font-size:10pt;
-}
-.cxTitre{
-font-family:arial;
-font-size:12pt;
-color:#1F497D;
-font-weight:bold;
-}
-.cxTextColor{
-color:#1F497D;
-}
-</style>
+
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap_ext/css/acquity.css" rel="stylesheet">
 </head>
 <body>
-<table style="width:1000px; margin:auto; height:200px;" cellpadding="0" cellspacing="0">
-	<tr>
-    	<td  style="background-image:url(images/header.png);background-position: center; height:300px;white;vertical-align:top;">
-			<!-- header -->
-     		<table style="width:100%;">
-     			<tr>
-     				<td style="width:170px;vertical-align:top;padding:20px;">
-     					<img src="images/logoAcquityBlanc500.png" style="width:150px;">
-     				</td>
-    	 			<td>
-    	 				<table style="width:100%;">
-    	 					<tr>
-    	 					  	<td style="text-align:right;padding:20px;">
-									<span style="font-size:8pt; color:white; font-family:arial;">
-									<a href="accueil.html" style="color:white;"><b>ACCUEIL</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="apropos.html" style="color:white;"><b>A PROPOS</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="solutions.html" style="color:white;"><b>NOS SOLUTIONS</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="cloud.html" style="color:white;"><b>ACQUITY CLOUD</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="contact.html" style="color:white;"><b>CONTACT</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="recrutement.html" style="color:white;"><b> RECRUTEMENT</b></a></span>
-								</td>
-    	 					</tr>  	
-    	 					<tr>  	
-    	 					  	<td style="text-align:right;">
-									
-								</td>
-    	 					</tr>
-    	 					<tr>
-    	 					  	<td style="text-align:right;">
-									<div style="width:450px;height:150px;display:inline-block;">
-										<div style="border:5px solid yellow;width:165px;height:210px;margin-left:75px;text-align:right;vertical-align:middle;">
-											<div style="font-size:10pt; color:yellow; font-family:arial;width:250px;margin-top:50px;margin-left:-200px;position:absolute;">
-												REVENONS A L'ESSENTIEL
-											</div>
-											<div style="font-size:18pt; color:white; font-family:arial;width:250px;margin-top:110px;margin-left:-200px;position:absolute;">
-												Des solutions<br>au service de l'Homme
-											</div>
-										</div>
-									</div>
-    	 						</td>
-    	 					</tr>
-    	 				</table>	  	
-    	 			</td>		  	
-			    </tr>
-			</table> 
-		</td>
-	</tr>		    	     					
- 	<tr>
-  		<td>
-			<!-- Concept -->
-      		<table style="width:850px; margin:0 auto;" cellpadding="0" cellspacing="0">
-      			<tr>
-      				<td>
-      					<table>
-							<tr>
-								<td></td>
-								<td style="padding-bottom:25px;">
-									<span class="cxTitre">NOTRE CONCEPT</span>
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td style="vertical-align:top;"> <img src="images/guillemets-debut.png" style="width:25px;"></td>
-								<td>
-									<p class="cxArial10" style="text-align:justify;">
-									Les solutions ACQUITY software apportent une offre de logiciels 
-									aux entreprises et établissements publics.
-									Fort de plus de 15 ans d'expériences, nous avons orienté l'ensemble
-									de nos applicatifs sur des notions simples et pragmatiques :
-									<ul>
-										<li type="cercle" class="cxArial10">Optimisation du travail collaboratif</li>
-										<li type="cercle" class="cxArial10">Automatisation des tâches pour enfin revenir a l'essentiel 
-										des solutions au service de l'Homme</li>
-									</ul>
-									</p>
-								</td>
-								<td style="vertical-align:bottom;"><img src="images/guillemets-fin.png" style="width:25px;"></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>
-									<a href="menu" class="cxArial10 cxTextColor">PLUS</a>
-								</td>
-								<td></td>
-							</tr>
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+			<a href="accueil.html" ><img class="navbar-brand js-scroll-trigger" src="images/logoAcquityBlanc500.png" style="width:150px;" ></a>
+		  <div class="container">
+			
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			  Menu
+			  <i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+			  <ul class="navbar-nav text-uppercase ml-auto">
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger active" href="accueil.html"><b>ACCUEIL</b></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="apropos.html"><b>A PROPOS</b></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="solutions.html"><b>NOS SOLUTIONS</b></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="#team"><b>ACQUITY CLOUD</b></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link js-scroll-trigger" href="#contact"><b>CONTACT</b></a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+	</nav>
+		 <!-- Header -->
+	<header style="background-image:url(images/accueil.png);background-position: center;background-size: cover; height:300px; text-align: right;padding: 75px;">
+			<div style="width:450px;height:150px;display:inline-block;">
+				<div style="border:5px solid yellow;width:165px;height:210px;margin-left:75px;text-align:right;vertical-align:middle;">
+					<div style="font-size:10pt; color:yellow; font-family:arial;width:250px;margin-top:50px;margin-left:-200px;position:absolute;">
+						REVENONS A L'ESSENTIEL
+					</div>
+					<div style="font-size:18pt; color:white; font-family:arial;width:250px;margin-top:110px;margin-left:-200px;position:absolute;">
+						Des solutions<br>au service de l'Homme
+					</div>
+				</div>
+			</div>
+		
+	</header>
+	<!-- Concept -->
+    <section id="concept">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 d-flex flex-wrap align-items-center" style="text-align:center;background-image:url(images/bgjaune.png); background-position:top center; background-repeat:vertical;">
+					
+						<img class="mx-auto" src="images/concept.jpg" style="width:300px; ">
+					
+				</div>
+				<div class="col-md-6">
+						<table style="margin:50px;">
+								<tr>
+									<td></td>
+									<td style="padding-bottom:25px;">
+										<span class="cxTitre">NOTRE CONCEPT</span>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td style="vertical-align:top;"> <img src="images/guillemets-debut.png" style="width:25px;"></td>
+									<td style="max-width: 400px;">
+										<p class="cxArial10" style="text-align:justify;">
+										Les solutions ACQUITY software apportent une offre de logiciels 
+										aux entreprises et établissements publics.
+										Fort de plus de 15 ans d'expériences, nous avons orienté l'ensemble
+										de nos applicatifs sur des notions simples et pragmatiques :
+										</p>
+										<ul>
+											<li type="cercle" class="cxArial10">Optimisation du travail collaboratif</li>
+											<li type="cercle" class="cxArial10">Automatisation des tâches pour enfin revenir a l'essentiel 
+											des solutions au service de l'Homme</li>
+										</ul>
+										
+									</td>
+									<td style="vertical-align:bottom;"><img src="images/guillemets-fin.png" style="width:25px;"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<a href="menu" class="cxArial10 cxTextColor">PLUS</a>
+									</td>
+									<td></td>
+								</tr>
 						</table>
-					</td>
-       				<td style="width:450px;text-align:center;height:250px;background-image:url(images/bgjaune.png); height:350px; background-position:top center; repet:vertical;">
-						<img src="images/concept.jpg" style="width:300px;">
-					</td>
-       			</tr>
-       		</table>
-       	</td>
-    </tr>
-	<tr>
-		<td style="text-align:center; background-color:#EEEEEE;padding-top:25px;"> 
-			<!-- NOS SOLUTIONS -->
-			<span class="cxTitre">NOS SOLUTIONS</span>
-       	 	<br>
-       	 	<table style="width:270px;display:inline-block;margin:25px;" cellpadding="0" cellspacing="0">
-       	 		  <tr>
-       	 		  	 <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-       	 		  	 	<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY CX</span>
-       	 		  	 </td>
-       	 		  	 <td style="width:240px;height:150px"><a href="acquityCX.html" ><img src="images/CX.jpg" style="width:240px;height:150px;"></a></td>
-       	 		  </tr>
-       	 		  <tr>
-       	 		  	 <td colspan="2" style="text-align:center;"><a href="acquityCX.html" class="cxArial10"><br>OPTIMISER VOS CONTACTS</a></td>
-       	 		  </tr>
-       		</table>
-        	 		  	   
-       	 	<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
-       	 		  <tr>
-       	 		  	 <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-       	 		  	 	<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RP</span>
-       	 		  	 </td>
-       	 		  	 <td style="width:240px;height:150px;"><a href="acquityRP.html" ><img src="images/RPAmphi.jpg" style="width:240px;height:150px;"></a></td>
-       	 		  </tr>
-       	 		  <tr>
-       	 		  	 <td colspan="2" style="text-align:center;"><a href="acquityRP.html" class="cxArial10"><br>ORGANISER VOS EVENEMENTS</a></td>
-       	 		  </tr>
-       		</table>
-       	 		  		
-       	 	<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
-       	 		  <tr>
-       	 		  	 <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-       	 		  	 	<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RH</span>
-       	 		  	 </td>
-       	 		  	 <td style="width:240px;height:150px"><a href="acquityRH.html" ><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></a></td>
-       	 		  </tr>
-       	 		  <tr>
-       	 		  	 <td colspan="2" style="text-align:center;"><a href="acquityRH.html" class="cxArial10"><br>SUIVRE VOS RECRUTEMENTS</a></td>
-       	 		  </tr>
-       		</table>
-       					
-       		<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
-       			  <tr>
-       				 <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-       				 	<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RH</span>
-       				 </td>
-       	 		  	 <td style="width:240px;height:150px"><a href="acquityAM.html" ><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></a></td>
-       	 		  </tr>
-       	 		  <tr>
-       	 		  	 <td colspan="2" style="text-align:center;"><a href="acquityAM.html" class="cxArial10"><br>RECENSER VOS EQUIPEMENTS</a></td>
-       	 		  </tr>
-       	 	 </table>
-       	 	 
-       	 	 <table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
-       				<tr>
-       					<td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-       						<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RH</span>
-       					</td>
-       	 		  		<td style="width:240px;height:150px"><a href="acquityFM.html" ><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></a></td>
-       	 		  	</tr>
-       	 		  	<tr>
-       	 		  		<td colspan="2" style="text-align:center;"><a href="acquityFM.htm" class="cxArial10"><br>ASSURER LA MAINTENANCE</a></td>
-       	 		 	</tr>
-       	 	 </table>
-		</td>
-	</tr>
-    <tr>
-       	<td style="text-align:center; font-family:arial; font-size:12; color:#1F497D;">
-			<!-- ACTUALITES -->
-       		<br><span class="cxTitre">ACTUALITES</span>
-     		<p style="font-family:arial; font-size:7pt; color:#1F497D;">ACTUALITES TWITTER/LINKEDIN</p>
-     	</td>
-     </tr>
-     <tr>
-     	<td style="text-align:center; background-color:#1F497D;padding:10px; color:white; font-family:arial; word-spacing:6px;">
-     	
-			<!-- FOOTER -->
-     		<table style="width:100%;">
-     		<tr>
-     			<td>
-					<span class="cxArial8" style="color:white;">Copyright&copy; &nbsp;&nbsp;<span style="color:yellow;">ACQUITY software 2018</span></span>
-       			</td>
-     	 		<td>
-     	 			<span class="cxTitre" style="color:white;">CONTACT</span>
-     	 		</td>
-     	 		<td>
-					<img src="images/adresse-blanc.png" style="height:20px;">
-       			</td>
-       			<td>
-					<span class="cxArial8" style="color:white;"><b>ACQUITY software</b><br><br>4 Avenue Francois Arago<br>92160 ANTONY</span>
-       			</td>
-       			<td>
-					<img src="images/email-blanc.png" style="height:20px;">
-				</td>
-				<td>
-					<span style="font-size:5pt;color:white;" class="cxArial8">contact@acquitysoftware.com</span>
-       			</td>
-       			<td>
-					<span style="font-size:10pt;color:white;" class="cxArial8"> +33(0)1 46 63 63 50</span>
-				</td>
-				<td>
-					<img src="images/facebook-blanc.png" style="height:20px;">
-				</td>
-				<td>
-					<img src="images/linkedin-blanc.png" style="height:20px;">
-       			</td>
-       			<td>
-       				<img src="images/twitter-blanc.png" style="height:20px;">
-       			</td>
-       		 </tr>	
-       		</tr>	
-       		</table>
-       	</td>
-     </tr>  		
-</table>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="solutions">
+			<div class="container">
+				<div class="row">
+						<div class="col-md-12">
+								<table>   				   					
+										<tr>
+											<td style="text-align:center; background-color:#EEEEEE;padding-top:25px;"> 
+												<!-- NOS SOLUTIONS -->
+												<span class="cxTitre">NOS SOLUTIONS</span>
+													<br>
+													<table style="width:270px;display:inline-block;margin:25px;" cellpadding="0" cellspacing="0">
+														  <tr>
+															   <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+																   <span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY CX</span>
+															   </td>
+															   <td style="width:240px;height:150px"><a href="acquityCX.html" ><img src="images/CX.jpg" style="width:240px;height:150px;"></a></td>
+														  </tr>
+														  <tr>
+															   <td colspan="2" style="text-align:center;"><a href="acquityCX.html" class="cxArial10"><br>OPTIMISER VOS CONTACTS</a></td>
+														  </tr>
+												   </table>
+																  
+													<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
+														  <tr>
+															   <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+																   <span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RP</span>
+															   </td>
+															   <td style="width:240px;height:150px;"><a href="acquityRP.html" ><img src="images/RPAmphi.jpg" style="width:240px;height:150px;"></a></td>
+														  </tr>
+														  <tr>
+															   <td colspan="2" style="text-align:center;"><a href="acquityRP.html" class="cxArial10"><br>ORGANISER VOS EVENEMENTS</a></td>
+														  </tr>
+												   </table>
+																  
+													<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
+														  <tr>
+															   <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+																   <span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RH</span>
+															   </td>
+															   <td style="width:240px;height:150px"><a href="acquityRH.html" ><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></a></td>
+														  </tr>
+														  <tr>
+															   <td colspan="2" style="text-align:center;"><a href="acquityRH.html" class="cxArial10"><br>SUIVRE VOS RECRUTEMENTS</a></td>
+														  </tr>
+												   </table>
+															   
+												   <table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
+														 <tr>
+															<td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+																<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY AM</span>
+															</td>
+															   <td style="width:240px;height:150px"><a href="acquityAM.html" ><img src="images/Am EnTete.jpg" style="width:240px;height:150px;"></a></td>
+														  </tr>
+														  <tr>
+															   <td colspan="2" style="text-align:center;"><a href="acquityAM.html" class="cxArial10"><br>RECENSER VOS EQUIPEMENTS</a></td>
+														  </tr>
+													 </table>
+													 
+													 <table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
+														   <tr>
+															   <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+																   <span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY FM</span>
+															   </td>
+																  <td style="width:240px;height:150px"><a href="acquityFM.html" ><img src="images/FM.jpg" style="width:240px;height:150px;"></a></td>
+															  </tr>
+															  <tr>
+																  <td colspan="2" style="text-align:center;"><a href="acquityFM.htm" class="cxArial10"><br>ASSURER LA MAINTENANCE</a></td>
+															 </tr>
+													 </table>
+											</td>
+										</tr>
+						</div>
+					</div>
+				</div>
+		</section>	
+		<section id="actualites">
+				<div class="container">
+					<div class="row">
+							<div class="col-lg-12">		
+									<tr>
+										<td style="text-align: center;font-family:arial;font-size: 12;color:#1F497D;">
+											<br><span class="cxTitre">ACTUALITES</span>
+											<p style="font-family:arial; font-size:7pt; color:#1F497D;">ACTUALITES TWITTER/LINKEDIN</p>
+										</td>
+									</tr>
+									<tr>
+											<td><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></td>
+									</tr>
+									<tr>
+											<td><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></td>
+									</tr>
+									<tr>
+										<td style="text-align:center; background-color:#1F497D;padding:10px; color:white; font-family:arial; word-spacing:6px;">
+							</div>
+					</div>
+				</div>
+		</section>
+<!-- FOOTER -->
+			<footer>
+				<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<table style="width:100%;">
+											<tr>
+												<td>
+													<span class="cxArial8" style="color:white;">Copyright&copy; &nbsp;&nbsp;<span style="color:yellow;">ACQUITY software 2018</span></span>
+												</td>
+												<td>
+													<span class="cxTitre" style="color:white;">CONTACT</span>
+												</td>
+												<td>
+													<img src="images/adresse-blanc.png" style="height:20px;">
+												</td>
+												<td>
+													<span class="cxArial8" style="color:white;"><b>ACQUITY software</b><br><br>4 Avenue Francois Arago<br>92160 ANTONY</span>
+												</td>
+												<td>
+													<img src="images/email-blanc.png" style="height:20px;">
+												</td>
+												<td>
+													<span style="font-size:5pt;color:white;" class="cxArial8">contact@acquitysoftware.com</span>
+												</td>
+												<td>
+													<span style="font-size:10pt;color:white;" class="cxArial8"> +33(0)1 46 63 63 50</span>
+												</td>
+												<td>
+													<img src="images/facebook-blanc.png" style="height:20px;">
+												</td>
+												<td>
+													<img src="images/linkedin-blanc.png" style="height:20px;">
+												</td>
+												<td>
+													<img src="images/twitter-blanc.png" style="height:20px;">
+												</td>
+												</tr>	
+											</tr>	
+									</table>
+								</div>
+							</div>
+						</div>
+					</footer>
+				
+<!-- ACTUALITES -->
+	
+
+<script src="jquery/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+	<script src="jquery-easing/jquery.easing.min.js"></script>	
+	<script src="bootstrap_ext/js/acquity.js"></script>	
 </body>
 </html>
+
   
   
   
