@@ -16,6 +16,14 @@ font-weight:bold;
 .cxTextColor{
 color:#1F497D;
 }
+.cxHeadTitle{
+  color:white;
+  font-size:18pt;
+}
+.cxHeadSmallTitle{
+  color:yellow;
+  font-size:10pt;
+}
 
 
   #mainNav {
@@ -39,7 +47,7 @@ color:#1F497D;
   }
   
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fec503;
+   color : #fed136;
   }
   
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -52,7 +60,7 @@ color:#1F497D;
   }
   
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    border-bottom:3px solid #fed136;
   }
 
   @media (min-width: 992px) {
@@ -83,5 +91,15 @@ color:#1F497D;
       }
 
 }
+
+/* table
+{
+  border-collapse: collapse;
+}
+
+tr,td
+{
+  border: 3px solid yellow;
+} */
 
 
