@@ -12,27 +12,26 @@
 	
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-			<a href="accueil.html" ><img class="navbar-brand js-scroll-trigger" src="images/logoAcquityBlanc500.png" style="width:150px;" ></a>
-		  <div class="container">
-			<div class="row">
-				<div class="col-md-3 offset-2">
-					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					Menu
-					<i class="fa fa-bars"></i>
-				</div>
-			</div>
+		<div class="container">
+			<a href="accueil.html" ><img  src="images/AcquityBlanc.png" style="width:150px;" ></a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars fa-1x"></i>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 			  <ul class="navbar-nav text-uppercase ml-auto">
 				<li class="nav-item">
 				  <a class="nav-link js-scroll-trigger active" href="accueil.html"><b class="cxUnderline">ACCUEIL</b></a>
 				</li>
-				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger" href="apropos.html"><b>A PROPOS</b></a>
+				<li class="nav-item dropdown">
+				   <a class="nav-link js-scroll-trigger dropdown-toggle" href="#" id="navbarDropdown"><b>À PROPOS</b></a>
+					 <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown" style="background-color:#1F497D;">
+						<a class="dropdown-item" href="solutionAM.html">Nos clients</a>
+						<a class="dropdown-item" href="solutionCX.html">Qui sommes-nous </a>
+					</div>
 				</li>
 				<li class="nav-item dropdown">
 				  <a class="nav-link js-scroll-trigger dropdown-toggle" href="#" id="navbarDropdown"><b>NOS SOLUTIONS</b></a>
-				  	<div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+				  	<div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown" style="background-color:#1F497D;">
 						<a class="dropdown-item" href="solutionAM.html">Acquity AM</a>
 						<a class="dropdown-item" href="solutionCX.html">Acquity CX</a>
 						<a class="dropdown-item" href="solutionFM.html">Acquity FM</a>
@@ -51,12 +50,12 @@
 		  </div>
 	</nav>
 		 <!-- Header -->
-	<header style="background-image:url(images/accueil.png);background-position: center;background-size: cover; height:300px; text-align: right;padding: 75px;">
-						<div class="container">
+	<header style="background-image:url(images/accueil.png);background-position: center;background-size: cover; height:300px;padding: 75px;">
+					<div class="container" style="text-align: right">
 							<div style="width:450px;height:150px;display:inline-block;">
 								<div class="row">
 									<div class="col-md-3 offset-3">
-										<div class="cadre"style="height:50px; width:150px;border-left: 3px solid yellow;border-right: 3px solid yellow; border-top: 3px solid yellow;"></div>
+										<div class="cadre"style="height:38px; width:150px;border-left: 3px solid yellow;border-right: 3px solid yellow; border-top: 3px solid yellow;"></div>
 									</div>
 								</div>
 								<div class="row">
@@ -98,7 +97,7 @@
 			<div class="row">
 				<div class="col-md-6 d-flex flex-wrap align-items-center" style="text-align:center;background-image:url(images/bgjaune.png); background-position:top center; background-repeat:vertical;">
 					
-						<img class="mx-auto" src="images/concept.jpg" style="width:300px; ">
+						<img class="mx-auto" src="images/concept.jpg" style="width:500px; ">
 					
 				</div>
 				<div class="col-md-6">
@@ -251,7 +250,7 @@
 						<span style="font-size:10px;color:white;">Copyright&copy;<span style="color:yellow;font-size:8px">ACQUITY software 2018</span></span>
 					</div>
 					<div class="col-md-1 " style="text-align: center;">	
-						<span class="cxFooter">CONTACT</span>		
+						<a href="contact.html"><span class="cxFooter">CONTACT</span></a>
 					</div>
 					<div class="col-md-3"  style="text-align: center;">	
 							<table style="display:inline-block; padding:5px;">
@@ -266,7 +265,7 @@
 							</table>
 					</div>
 					<div class="col-md-2" style="text-align: center;">	
-							<table style="display:inline-block;padding:5px;">
+							<table style="display:inline-block;padding:5px; min-width: 200px;">
 									<tr>
 										<td>
 											<img src="images/email-blanc.png" style="height:20px;">
@@ -284,29 +283,24 @@
 											<img src="images/téléphone blanc.png" style="height:20px;">
 										</td>
 										<td>
-											<span class="cxFooter"> +33(0)1 46 63 63 50</span>
+											<span class="cxFooter" style="white-space: nowrap"> +33(0)1 46 63 63 50</span>
 										</td>
 									</tr>
 							</table>
 					</div>
 					<div class="col-md-2"  style="text-align: center;">	
-						<ul class="list-inline social-buttons">
-							<li class="list-inline-item">
-								<a href="#">
+						
+								<a class="social-buttons" href="https://twitter.com/ACQUITYsoftware" title="Notre Twitter">
 								<i class="fa fa-twitter"></i>
 								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="#">
-								<i class="fa fa-facebook-f"></i>
+							
+								<a class="social-buttons" href="https://fr.viadeo.com/fr/company/acquity-software" title="Notre Viadeo">
+								<i class="fa fa-viadeo"></i>
 								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="#">
+							
+								<a class="social-buttons" href="https://www.linkedin.com/in/acquity-software-a02303161/" title="Notre Linkedin">
 								<i class="fa fa-linkedin"></i>
 								</a>
-							</li>
-						</ul>	
 					</div>			
 				</div>
 			</div>
