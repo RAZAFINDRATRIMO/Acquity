@@ -6,6 +6,7 @@
 
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="bootstrap_ext/css/acquity.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	
@@ -13,15 +14,18 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 			<a href="accueil.html" ><img class="navbar-brand js-scroll-trigger" src="images/logoAcquityBlanc500.png" style="width:150px;" ></a>
 		  <div class="container">
-			
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-			  Menu
-			  <i class="fas fa-bars"></i>
+			<div class="row">
+				<div class="col-md-3 offset-2">
+					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					Menu
+					<i class="fa fa-bars"></i>
+				</div>
+			</div>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 			  <ul class="navbar-nav text-uppercase ml-auto">
 				<li class="nav-item">
-				  <a class="nav-link js-scroll-trigger active" href="accueil.html"><b>ACCUEIL</b></a>
+				  <a class="nav-link js-scroll-trigger active" href="accueil.html"><b class="cxUnderline">ACCUEIL</b></a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link js-scroll-trigger" href="apropos.html"><b>A PROPOS</b></a>
@@ -48,25 +52,45 @@
 	</nav>
 		 <!-- Header -->
 	<header style="background-image:url(images/accueil.png);background-position: center;background-size: cover; height:300px; text-align: right;padding: 75px;">
-			<div style="width:450px;height:150px;display:inline-block;">
-
-					<div class="cadre"style="height:50px; width:150px;border-left: 3px solid yellow;border-right: 3px solid yellow; border-top: 3px solid yellow;">
-					</div>
-					<div  class="cadre" style="height:25px; width:150px;border-right: 3px solid yellow; margin-top: 0px;">
-						<span class="cxHeadSmallTitle" style="display: inline-block; margin-left:-255px;position:absolute;">REVENONS À L'ESSENTIEL</span>
-					</div>
-					<div  class="cadre" style="height:25px; width:150px;border-left: 3px solid yellow;border-right: 3px solid yellow;">
-					</div>
-					<div  class="cadre" style="height:35px; width:150px;border-right: 3px solid yellow;">
-						<span class="cxHeadTitle"style="display: inline-block;margin-top:-5px;margin-left:-315px;position: absolute;">Des solutions au<br> service de l'Homme</span>
-					</div>
-					<div  class="cadre" style="height:30px; width:150px;border-right: 3px solid yellow;">
-					</div>
-					<div  class="cadre" style="height:50px; width:150px;border-left: 3px solid yellow;border-right: 3px solid yellow;border-bottom: 3px solid yellow;">
-					</div>
-				
-			</div>
-		
+						<div class="container">
+							<div style="width:450px;height:150px;display:inline-block;">
+								<div class="row">
+									<div class="col-md-3 offset-3">
+										<div class="cadre"style="height:50px; width:150px;border-left: 3px solid yellow;border-right: 3px solid yellow; border-top: 3px solid yellow;"></div>
+									</div>
+								</div>
+								<div class="row">
+										<div class="col-md-3 offset-3">
+											<div  class="cadre" style="height:25px; width:150px;border-right: 3px solid yellow; margin-top: 0px;">
+												<span class="cxHeadSmallTitle" style="display: inline-block; margin-left:-255px;position:absolute;">REVENONS À L'ESSENTIEL</span>
+											</div>
+										</div>
+								</div>
+								<div class="row">
+										<div class="col-md-3 offset-3">
+											<div  class="cadre" style="height:25px; width:150px;border-left: 3px solid yellow;border-right: 3px solid yellow;"></div>
+										</div>
+								</div>
+								<div class="row">
+										<div class="col-md-3 offset-3">
+											<div  class="cadre" style="height:35px; width:150px;border-right: 3px solid yellow;">
+												<span class="cxHeadTitle"style="display: inline-block;margin-top:-5px;margin-left:-315px;position: absolute;">Des solutions au<br> service de l'Homme</span>
+											</div>
+										</div>
+								</div>
+								<div class="row">
+										<div class="col-md-3 offset-3">
+											<div  class="cadre" style="height:30px; width:150px;border-right: 3px solid yellow;"></div>
+										</div>
+								</div>
+								<div class="row">
+										<div class="col-md-3 offset-3">
+											<div  class="cadre" style="height:50px; width:150px;border-left: 3px solid yellow;border-right: 3px solid yellow;border-bottom: 3px solid yellow;"></div>
+										</div>
+								</div>	
+							</div>		
+						</div>
+			
 	</header>
 	<!-- Concept -->
     <section id="concept">
@@ -116,148 +140,178 @@
 			</div>
 		</div>
 	</section>
-	<section id="solutions">
+<!--SOLUTION-->
+	<section id="solutions" style="background-color:#EEEEEE;">
+		<div class="container">
+			<div class="row"> 
+				<div class="col" style="text-align: center;padding-top:25px;">
+					<span class="cxTitre">NOS SOLUTIONS</span>
+				</div>
+			</div>
+			<div class ="row">
+				<div class="col-md-4 "style="text-align:center;">
+					<table style="width:270px;display:inline-block;margin:15px; " cellpadding="0" cellspacing="0">
+						<tr>
+							<td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+								<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY CX</span>
+							</td>
+							<td style="width:240px;height:150px"><a href="acquityCX.html" ><img src="images/CX.jpg" style="width:240px;height:150px;" title="AcquityCX"></a></td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align:center;"><a href="acquityCX.html" class="cxArial10"><br>OPTIMISER VOS CONTACTS</a></td>
+						</tr>
+					</table>
+				</div>
+											
+				<div class="col-md-4" style="text-align:center;">	  
+					<table style="width:270px;display:inline-block;margin:15px;"  cellpadding="0" cellspacing="0">
+						<tr>
+							<td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+								<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RP</span>
+							</td>
+							<td style="width:240px;height:150px;"><a href="acquityRP.html" ><img src="images/RPAmphi.jpg" style="width:240px;height:150px;" title="AcquityRP"></a></td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align:center;"><a href="acquityRP.html" class="cxArial10"><br>ORGANISER VOS EVENEMENTS</a></td>
+						</tr>
+					</table>
+				</div>
+				<div class="col-md-4" style="text-align:center;">		  
+					<table style="width:270px;display:inline-block;margin:15px;"  cellpadding="0" cellspacing="0">
+							<tr>
+								<td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+									<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RH</span>
+								</td>
+								<td style="width:240px;height:150px"><a href="acquityRH.html" ><img src="images/RHEnTete.jpg" style="width:240px;height:150px;" title="AcquityRH"></a></td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align:center;"><a href="acquityRH.html" class="cxArial10"><br>SUIVRE VOS RECRUTEMENTS</a></td>
+							</tr>
+					</table>
+				</div>
+			</div>
+			<div class ="row" style="background-color:#EEEEEE;">
+				<div class="col-md-6" style="text-align:center;">		   
+					<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
+							<tr>
+							<td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+								<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY AM</span>
+							</td>
+								<td style="width:240px;height:150px;"><a href="acquityAM.html" ><img src="images/Am EnTete.jpg" style="width:240px;height:150px;" title="AcquityAM"></a></td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align:center;"><a href="acquityAM.html" class="cxArial10"><br>RECENSER VOS EQUIPEMENTS</a></td>
+							</tr>
+					</table>
+				</div> 
+				<div class="col-md-6" style="text-align:center;">
+					<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
+						<tr>
+							<td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
+								<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY FM</span>
+							</td>
+								<td style="width:240px;height:150px"><a href="acquityFM.html" ><img src="images/FM.jpg" style="width:240px;height:150px;" title="AcquityFM"></a></td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align:center;"><a href="acquityFM.htm" class="cxArial10"><br>ASSURER LA MAINTENANCE</a></td>
+							</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>	
+<!-- ACTUALITES -->
+	<section id="actualites">
 			<div class="container">
 				<div class="row">
-						<div class="col-md-12">
-								<table>   				   					
-										<tr>
-											<td style="text-align:center; background-color:#EEEEEE;padding-top:25px;"> 
-												<!-- NOS SOLUTIONS -->
-												<span class="cxTitre">NOS SOLUTIONS</span>
-													<br>
-													<table style="width:270px;display:inline-block;margin:25px;" cellpadding="0" cellspacing="0">
-														  <tr>
-															   <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-																   <span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY CX</span>
-															   </td>
-															   <td style="width:240px;height:150px"><a href="acquityCX.html" ><img src="images/CX.jpg" style="width:240px;height:150px;"></a></td>
-														  </tr>
-														  <tr>
-															   <td colspan="2" style="text-align:center;"><a href="acquityCX.html" class="cxArial10"><br>OPTIMISER VOS CONTACTS</a></td>
-														  </tr>
-												   </table>
-																  
-													<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
-														  <tr>
-															   <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-																   <span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RP</span>
-															   </td>
-															   <td style="width:240px;height:150px;"><a href="acquityRP.html" ><img src="images/RPAmphi.jpg" style="width:240px;height:150px;"></a></td>
-														  </tr>
-														  <tr>
-															   <td colspan="2" style="text-align:center;"><a href="acquityRP.html" class="cxArial10"><br>ORGANISER VOS EVENEMENTS</a></td>
-														  </tr>
-												   </table>
-																  
-													<table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
-														  <tr>
-															   <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-																   <span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY RH</span>
-															   </td>
-															   <td style="width:240px;height:150px"><a href="acquityRH.html" ><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></a></td>
-														  </tr>
-														  <tr>
-															   <td colspan="2" style="text-align:center;"><a href="acquityRH.html" class="cxArial10"><br>SUIVRE VOS RECRUTEMENTS</a></td>
-														  </tr>
-												   </table>
-															   
-												   <table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
-														 <tr>
-															<td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-																<span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY AM</span>
-															</td>
-															   <td style="width:240px;height:150px"><a href="acquityAM.html" ><img src="images/Am EnTete.jpg" style="width:240px;height:150px;"></a></td>
-														  </tr>
-														  <tr>
-															   <td colspan="2" style="text-align:center;"><a href="acquityAM.html" class="cxArial10"><br>RECENSER VOS EQUIPEMENTS</a></td>
-														  </tr>
-													 </table>
-													 
-													 <table style="width:270px;display:inline-block;margin:25px;"  cellpadding="0" cellspacing="0">
-														   <tr>
-															   <td style="background-color:#1F497D;color:white;width:30px;height:150px;text-align:center;vertical-align:middle;">
-																   <span style="writing-mode:vertical-lr; -ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);white-space: nowrap;">ACQUITY FM</span>
-															   </td>
-																  <td style="width:240px;height:150px"><a href="acquityFM.html" ><img src="images/FM.jpg" style="width:240px;height:150px;"></a></td>
-															  </tr>
-															  <tr>
-																  <td colspan="2" style="text-align:center;"><a href="acquityFM.htm" class="cxArial10"><br>ASSURER LA MAINTENANCE</a></td>
-															 </tr>
-													 </table>
-											</td>
-										</tr>
+						<div class="col-md-12" style="text-align: center">		
+								<tr>
+									<td style="text-align: center;font-family:arial;font-size: 12;color:#1F497D;">
+										<br><span class="cxTitre">ACTUALITES</span>
+										<p style="font-family:arial; font-size:7pt; color:#1F497D;">ACTUALITES TWITTER/LINKEDIN</p>
+									</td>
+								</tr>
+								<tr>
+										<td><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></td>
+								</tr>
+								<tr>
+										<td><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></td>
+								</tr>
+								
 						</div>
-					</div>
 				</div>
-		</section>	
-		<!-- ACTUALITES -->
-		<section id="actualites">
-				<div class="container">
-					<div class="row">
-							<div class="col-lg-12">		
+			</div>
+	</section>
+<!-- FOOTER -->
+	<footer>
+		<section id="footer" style="background-color:#1F497D;">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-2 "  style="text-align: center;">
+						<span style="font-size:10px;color:white;">Copyright&copy;<span style="color:yellow;font-size:8px">ACQUITY software 2018</span></span>
+					</div>
+					<div class="col-md-1 " style="text-align: center;">	
+						<span class="cxFooter">CONTACT</span>		
+					</div>
+					<div class="col-md-3"  style="text-align: center;">	
+							<table style="display:inline-block; padding:5px;">
 									<tr>
-										<td style="text-align: center;font-family:arial;font-size: 12;color:#1F497D;">
-											<br><span class="cxTitre">ACTUALITES</span>
-											<p style="font-family:arial; font-size:7pt; color:#1F497D;">ACTUALITES TWITTER/LINKEDIN</p>
+										<td>
+											<img src="images/adresse-blanc.png" style="height:20px;">
+										</td>
+										<td style="text-align:left;line-height:1;">
+											<span class="cxFooter"><b>ACQUITY software</b><br>4 Avenue Francois Arago<br> 92160 ANTONY</span>
 										</td>
 									</tr>
-									<tr>
-											<td><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></td>
-									</tr>
-									<tr>
-											<td><img src="images/RHEnTete.jpg" style="width:240px;height:150px;"></td>
-									</tr>
-									<tr>
-										<td style="text-align:center; background-color:#1F497D; font-family:arial; word-spacing:6px;">
-							</div>
+							</table>
 					</div>
+					<div class="col-md-2" style="text-align: center;">	
+							<table style="display:inline-block;padding:5px;">
+									<tr>
+										<td>
+											<img src="images/email-blanc.png" style="height:20px;">
+										</td>
+										<td>
+											<span class="cxFooter">contact@acquitysoftware.com</span>
+										</td>
+									</tr>
+							</table>
+					</div>
+					<div class="col-md-2"  style="text-align: center;">	
+							<table style="display:inline-block;padding:5px">
+									<tr>
+										<td>
+											<img src="images/téléphone blanc.png" style="height:20px;">
+										</td>
+										<td>
+											<span class="cxFooter"> +33(0)1 46 63 63 50</span>
+										</td>
+									</tr>
+							</table>
+					</div>
+					<div class="col-md-2"  style="text-align: center;">	
+						<ul class="list-inline social-buttons">
+							<li class="list-inline-item">
+								<a href="#">
+								<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#">
+								<i class="fa fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#">
+								<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>	
+					</div>			
 				</div>
+			</div>
 		</section>
-<!-- FOOTER -->
-			<footer>
-				<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<table style="width:100%;">
-											<tr>
-												<td>
-													<span class="cxArial8" style="color:white;">Copyright&copy; &nbsp;&nbsp;<span style="color:yellow;">ACQUITY software 2018</span></span>
-												</td>
-												<td>
-													<span class="cxTitre" style="color:white;">CONTACT</span>
-												</td>
-												<td>
-													<img src="images/adresse-blanc.png" style="height:20px;">
-												</td>
-												<td>
-													<span class="cxArial8" style="color:white;"><b>ACQUITY software</b><br><br>4 Avenue Francois Arago<br>92160 ANTONY</span>
-												</td>
-												<td>
-													<img src="images/email-blanc.png" style="height:20px;">
-												</td>
-												<td>
-													<span style="font-size:5pt;color:white;" class="cxArial8">contact@acquitysoftware.com</span>
-												</td>
-												<td>
-													<span style="font-size:10pt;color:white;" class="cxArial8"> +33(0)1 46 63 63 50</span>
-												</td>
-												<td>
-													<img src="images/facebook-blanc.png" style="height:20px;">
-												</td>
-												<td>
-													<img src="images/linkedin-blanc.png" style="height:20px;">
-												</td>
-												<td>
-													<img src="images/twitter-blanc.png" style="height:20px;">
-												</td>
-												</tr>	
-											</tr>	
-									</table>
-								</div>
-							</div>
-						</div>
-					</footer>
+	</footer>
 				
 
 	

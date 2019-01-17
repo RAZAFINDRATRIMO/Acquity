@@ -24,10 +24,17 @@ color:#1F497D;
   color:yellow;
   font-size:10pt;
 }
-
+.cxUnderline{
+  border-bottom :2px solid yellow;
+}
+.cxFooter {
+  font-family:arial;
+  font-size:8pt;
+  color : white;
+}
 
   #mainNav {
-    background-color: #212529;
+    background-color: #1F497D;
   }
 
   #mainNav .navbar-toggler {
@@ -37,7 +44,7 @@ color:#1F497D;
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: rgb(233, 233, 14);
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
@@ -46,8 +53,9 @@ color:#1F497D;
     font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
-  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-   color : #fed136;
+  #mainNav .nav-link:hover {
+   text-decoration : underline;
+   text-decoration-color : yellow;
   }
   
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -59,11 +67,8 @@ color:#1F497D;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
-  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    border-bottom:3px solid #fed136;
-  }
 
-  @media (min-width: 992px) {
+  @media (min-width: 1050px) {
     #mainNav {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -83,11 +88,14 @@ color:#1F497D;
       #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #212529;
+        background-color: #1F497D;
       }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      }
+      .container{
+        max-width:1000px;
       }
 
 }
@@ -110,6 +118,22 @@ color:#1F497D;
   opacity: 1;
   color : #fec503;
 }
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #1F497D;
+  border-radius: 100%;
+  outline: none;
+  background-color: white;
+}
 
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: yellow;
+}
 
 
