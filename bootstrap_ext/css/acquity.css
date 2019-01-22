@@ -5,7 +5,8 @@ font-size:8pt;
 }
 .cxArial10{
 font-family:arial;
-font-size:10pt;
+font-size:8pt;
+text-align: justify;
 }
 .cxTitre{
 font-family:arial;
@@ -31,6 +32,19 @@ color:#1F497D;
   font-family:arial;
   font-size:8pt;
   color : white;
+}
+
+.cxSMTitre {
+font-family:arial;
+font-size:10pt;
+color:#1F497D;
+font-weight:bold;
+}
+
+.cxSMTitreBlanc {
+font-family:arial;
+font-size:10pt;
+color:white;
 }
 
   #mainNav {
@@ -141,5 +155,7 @@ a.social-buttons:active,a.social-buttons:focus, a.social-buttons:hover {
   background-color: yellow;
 }
 
-/* A PROPOS */
+.Parcours{
+  text-align: left;
+}
 
